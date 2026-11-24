@@ -4,7 +4,6 @@
 
 - 生成 PPT 只写入本地工作区 `outputs/`。
 - 默认在生成完成后调用 GitHub API，按本地真实文件名强制替换公开仓库中的同名 PPT。
-- 设置 `PPT_AUTO_PUBLISH=0` 或传入 `--no-publish` 可关闭发布。
 - 强制替换保留 Git 提交历史，不会执行改写远端历史的 `git push --force`。
 
 ## 目标仓库

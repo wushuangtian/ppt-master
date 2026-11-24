@@ -53,7 +53,7 @@ def _load_requests():
 
 
 def _github_token() -> str:
-    token = os.environ.get("PPT_GITHUB_TOKEN", "").strip()
+    token = os.environ.get("PPT_GITHUB_TOKEN", "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").strip()
     if not token:
         raise PublishError(
             "未配置 PPT_GITHUB_TOKEN。请使用仅授权 "

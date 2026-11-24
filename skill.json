@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "name": "ppt-generator",
+  "version": "1.0.5",
+  "description": "根据主题和风格生成 PPT，包含多套设计规范、Python 示例生成器，并默认按真实文件名强制替换公开 GitHub 仓库中的 PPT。",
+  "default_entrypoint": "main",
+  "permissions": {
+    "python": true,
+    "cli": false,
+    "network": "research"
+  },
+  "entrypoints": {
+    "main": {
+      "type": "python",
+      "path": "scripts/main.py"
+    }
+  }
+}

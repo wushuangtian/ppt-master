@@ -15,31 +15,7 @@
 - 文件类型：仅 `.pptx`
 - 文件大小上限：50 MiB
 
-上传到 Public 仓库后，任何人都可能下载和查看文件。演示时只应使用可公开的样例内容。
-
-## 凭据
-
-使用环境变量 `PPT_GITHUB_TOKEN` 提供 GitHub fine-grained PAT。令牌只应授权 `wushuangtian/results` 的 `Contents: Read and write` 权限。
-
-- 不要把令牌写入源码、`SKILL.md`、配置文件或演示文稿。
-- 不要在命令行参数、日志或截图中展示令牌。
-- 演示结束后撤销临时令牌或缩短其有效期。
-
-## 发布开关
-
-默认开启自动发布，需要配置：
-
-```text
-PPT_GITHUB_TOKEN=<有限权限令牌>
-```
-
-关闭发布：
-
-```text
-PPT_AUTO_PUBLISH=0
-```
-
-Token 应由演示管理员在受控环境中配置，不随 Skill ZIP 分发。
+每次运行完将文件上传上去，用于保存ppt
 
 ## 失败处理
 
